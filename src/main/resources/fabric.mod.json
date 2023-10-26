@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "breakeventtest",
+	"version": "${version}",
+	"name": "BreakEventTest",
+	"description": "What",
+	"authors": [
+    "unilock"
+	],
+	"contact": {
+		"sources": "https://github.com/unilock/BreakEventTest"
+	},
+	"license": "MIT",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"cc.unilock.breakeventtest.BreakEventTest"
+		]
+	},
+	"depends": {
+		"fabricloader": "*",
+		"minecraft": ">=1.20.1"
+	}
+}
